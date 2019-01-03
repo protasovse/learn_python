@@ -1,25 +1,26 @@
 cars = ['bmw', 'audi', 'toyota', 'subaru']
 
-print("Here is the orginal list: ")
-print(cars)
-
-print("\nHere is the sorted list: ")
-print(sorted(cars))
-
-print("\nHere is the orginal list again: ")
-print(cars)
+# print("Here is the orginal list: ")
+# print(cars)
+#
+# print("\nHere is the sorted list: ")
+# print(sorted(cars))
+#
+# print("\nHere is the orginal list again: ")
+# print(cars)
 
 cars.reverse()
-print(cars)
+# print(cars)
 
 l = len(cars)
 
-print(l)
+# print(l)
 
 
+cars = ['bmw', 'audi', 'toyota', 'subaru']
 
-
-# cars.sort()
-# print(cars)
-# cars.sort(reverse=True)
-# print(cars)
+for car in cars:
+    if car == 'bmw':
+        print(car.upper())
+    else:
+        print(car.title())
